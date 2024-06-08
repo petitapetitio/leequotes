@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leequotes"
+version = "0.0.1"
+authors = [
+    {name = "Alexandre Petit", email = "lxnd@proton.me"},
+]
+description = "A python package that provides Bruce Lee quotes"
+keywords = ["Bruce", "Lee", "quotes", "wisdom"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
