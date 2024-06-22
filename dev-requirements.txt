@@ -1,2 +1,4 @@
+build
+twine
 pytest==8.2.2
 black
