@@ -19,5 +19,8 @@ license = {file = "LICENSE"}
 [project.urls]
 Repository = "https://github.com/lxnd-dune/leequotes"
 
+[project.scripts]
+leequote = "leequotes.leequotes:random"
+
 [tool.black]
 line-length = 120
