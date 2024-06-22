@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "leequotes"
-version = "0.0.2"
+version = "0.0.4"
 authors = [
     {name = "Alexandre Petit", email = "lxnd@proton.me"},
 ]
