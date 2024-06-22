@@ -13,4 +13,4 @@ def download_google_sheet_to(spreadsheet_id: str, filepath: Path):
 
 
 if __name__ == '__main__':
-    download_google_sheet_to('1PbIU9R8N4NF8xAjC81YHqXPQumMo0bNEnzSHMo7K3v4', Path("leequotes/quotes.tsv"))
+    download_google_sheet_to('1PbIU9R8N4NF8xAjC81YHqXPQumMo0bNEnzSHMo7K3v4', Path("leequotes/data/quotes.tsv"))
