@@ -44,7 +44,8 @@ pip intall --upgrade leequotes
 Once the modification is developed : 
 1. Increment the version in `pyproject.toml`
 2. Run `python -m build` to build the package
-3. Run `twine upload dist/*`to upload the builds on PyPI
+3. Delete the old builds in the `dist` folder (if any)
+4. Run `twine upload dist/*`to upload the builds on PyPI
 
 Notes : 
 - Once uploaded, the package is immutable. If you need to make changes, you will need to increment the version again.
