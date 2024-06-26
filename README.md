@@ -7,6 +7,8 @@
 
 A python package that provides Bruce Lee quotes
 
+A simple website showcasing the leequotes lib is available at http://lxnd.pythonanywhere.com/
+
 # How to install
 
 From a terminal, run the following command:
@@ -51,4 +53,7 @@ Notes :
 - Once uploaded, the package is immutable. If you need to make changes, you will need to increment the version again.
 - To test the package locally, you can run `pip install dist/<the-local-build>.whl`
 
+# Useful links
 
+- The google sheet where the quotes are maintained : https://docs.google.com/spreadsheets/d/1PbIU9R8N4NF8xAjC81YHqXPQumMo0bNEnzSHMo7K3v4
+- The live demo : http://lxnd.pythonanywhere.com/
